@@ -83,13 +83,7 @@ const Beverages = () => {
       {/* <Text style={styles.headingStyle}>Beverages</Text> */}
       <FlatList
         data={beverages}
-        renderItem={item => (
-          <ListItem
-            item={item}
-            type="Beverages"
-            // clickEdit={() => setFormVisible(true)}
-          />
-        )}
+        renderItem={item => <ListItem item={item} type="Beverages" />}
         keyExtractor={item => item?.id}
       />
       <CustomButton

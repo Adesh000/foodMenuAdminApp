@@ -1,4 +1,4 @@
-import {StyleSheet, Switch, Text, View} from 'react-native';
+import {Alert, StyleSheet, Switch, Text, View} from 'react-native';
 import React, {useState} from 'react';
 import CustomButton from './CustomButton';
 import firestore from '@react-native-firebase/firestore';
@@ -24,6 +24,20 @@ const ListItem = ({item, type}) => {
         console.log('Item updated');
         setIsOpen(false);
       });
+  };
+
+  const onClickDelete = () => {
+    Alert.alert('Delete', 'Do you want to delete this item?', [
+      {
+        text: 'Cancel',
+        onPress: () => console.log('Cancel Pressed'),
+        style: 'cancel',
+      },
+      {
+        text: 'OK',
+        onPress: () => deleteItem(type, item?.item?.id),
+      },
+    ]);
   };
 
   return (
@@ -54,7 +68,7 @@ const ListItem = ({item, type}) => {
           <CustomButton
             title={'Delete'}
             type="secondary"
-            onPress={() => deleteItem(type, item?.item?.id)}
+            onPress={onClickDelete}
           />
         </View>
       </View>
