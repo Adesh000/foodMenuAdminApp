@@ -87,7 +87,7 @@ const Beverages = () => {
           <ListItem
             item={item}
             type="Beverages"
-            clickEdit={() => setFormVisible(true)}
+            // clickEdit={() => setFormVisible(true)}
           />
         )}
         keyExtractor={item => item?.id}

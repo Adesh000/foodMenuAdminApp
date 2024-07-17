@@ -4,7 +4,7 @@ import CustomButton from './CustomButton';
 import firestore from '@react-native-firebase/firestore';
 import {deleteItem, editItem} from '../utils/utilityFn';
 import CustomModal from './CustomModal';
-const ListItem = ({item, type, clickEdit}) => {
+const ListItem = ({item, type}) => {
   const [isActive, setIsActive] = useState(item?.item?.status);
   const [isOpen, setIsOpen] = useState(false);
   const toggleSwitch = () => setIsActive(prevState => !prevState);
