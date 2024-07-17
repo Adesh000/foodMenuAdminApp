@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "323911668600",
+    "project_id": "foodmenuadmin",
+    "storage_bucket": "foodmenuadmin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:323911668600:android:40323a00848b0c767dee8d",
+        "android_client_info": {
+          "package_name": "com.foodMenuAdminApp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQRhBU8dlOGnUW1lzou_3cz0cU2G5khDI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:323911668600:android:f543345227afce5b7dee8d",
+        "android_client_info": {
+          "package_name": "com.foodmenuadminapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQRhBU8dlOGnUW1lzou_3cz0cU2G5khDI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

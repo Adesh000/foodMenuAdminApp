@@ -1,0 +1,145 @@
+export const Beverages = [
+  {
+    title: 'Tea',
+    //price: '$56',
+    tags: ' Hot ',
+  },
+  {
+    title: 'Hot Coffee',
+    //price: '$59',
+    tags: ' Fresh ',
+  },
+  {
+    title: 'Cold Coffee',
+    //price: '$59',
+    tags: ' Fresh ',
+  },
+  {
+    title: 'Ice Tea',
+    //price: '$44',
+    tags: 'Fresh | 750 ml',
+  },
+  {
+    title: 'Green Tea',
+    // price: '$31',
+    tags: 'Hot | 750 ml',
+  },
+  {
+    title: 'Fresh Lime Soda',
+    // price: '$26',
+    tags: 'Fresh | 750 ml',
+  },
+  {
+    title: 'Coconut Water',
+    // price: '$26',
+    tags: 'Fresh | 750 ml',
+  },
+  {
+    title: 'Seasonal Fresh Juice',
+    // price: '$26',
+    tags: 'Fresh | 750 ml',
+  },
+  {
+    title: 'Chocolate Shake',
+    // price: '$26',
+    tags: 'Fresh | 750 ml',
+  },
+  {
+    title: 'Oreo Shake',
+    // price: '$26',
+    tags: 'Fresh | 750 ml',
+  },
+  {
+    title: 'Banana Shake',
+    // price: '$26',
+    tags: 'Fresh | 750 ml',
+  },
+  {
+    title: 'Pineapple Shake',
+    // price: '$26',
+    tags: 'Fresh | 750 ml',
+  },
+  {
+    title: 'Seasonal Fruit Shake',
+    // price: '$26',
+    tags: 'Fresh | 750 ml',
+  },
+];
+
+export const Snacks = [
+  {
+    title: 'Masala French Fries',
+    //price: '$20',
+    tags: ' Hot| Fresh',
+  },
+  {
+    title: 'Plain French Fries',
+    //price: '$20',
+    tags: ' Hot| Fresh',
+  },
+  {
+    title: 'Corn & Cheese Nuggets',
+    //price: '$20',
+    tags: ' Cheesy | Hot ',
+  },
+  {
+    title: 'Fresh Cut Fruits',
+    //price: '$20',
+    tags: ' Seasonal  | Fruits ',
+  },
+  {
+    title: 'Pizza Pockets',
+    //price: '$16',
+    tags: 'Hot | Fresh',
+  },
+  {
+    title: 'Veg Mayonnaise Sandwich',
+    //price: '$10',
+    tags: 'White Bread',
+  },
+  {
+    title: 'Veg Mayonnaise Sandwich',
+    //price: '$20',
+    tags: ' Brown Bread ',
+  },
+  {
+    title: 'Veg Mayonnaise  Grill Sandwich',
+    //price: '$20',
+    tags: ' Brown Bread ',
+  },
+  {
+    title: 'Veg Mayonnaise  Grill Sandwich',
+    //price: '$20',
+    tags: ' White Bread ',
+  },
+  {
+    title: 'Veg Cheese Sandwich',
+    //price: '$20',
+    tags: ' Brown Bread ',
+  },
+  {
+    title: 'Veg Cheese Sandwich',
+    //price: '$20',
+    tags: ' White Bread ',
+  },
+  {
+    title: 'Potato Bites',
+    //price: '$20',
+    tags: ' Hot | Fresh ',
+  },
+  {
+    title: 'Cheese Balls',
+    //price: '$20',
+    tags: ' Hot | Fresh ',
+  },
+  {
+    title: 'Veggie Fingers',
+    //price: '$20',
+    tags: ' Hot | Fresh ',
+  },
+  {
+    title: 'Potato Wedges',
+    //price: '$20',
+    tags: ' Hot | Fresh ',
+  },
+];
